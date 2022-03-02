@@ -1,0 +1,6 @@
+**/migrations
+**/migrations_old
+**/.vscode
+**/.pytest_cache
+**/__pycache__
+**/venv
