@@ -11,7 +11,6 @@ then
     echo "PostgreSQL started"
 fi
 
-python manage.py create_db
 flask db init
 flask db migrate -m "initial model"
 flask db upgrade

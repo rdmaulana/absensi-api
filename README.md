@@ -14,4 +14,10 @@ Check out API Documentation [here](https://golden-mochi-2dc.notion.site/HR-API-S
     $ docker-compose up -d --build
     ```
 
-    Test it out at [http://localhost:5004](http://localhost:5004)
+    Check it out at [http://localhost:5004](http://localhost:5004)
+
+    Run application test 
+
+    ```sh
+    $ docker-compose exec web pytest
+    ```
